@@ -1,0 +1,13 @@
+.book-card{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px black;
+    border-radius: 5px;
+}
+.book-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0,0, 0.2);
+    border-radius: 5px;
+}
+.card-body{
+    background-color: #FFF2EB;
+}
